@@ -9,7 +9,7 @@ function CarBrands() {
   return (
     <>
       <div className="text-3xl mt-10 text-center">
-         <h1 className="font-bold">Populer Car Brands</h1>
+        <h1 className="font-bold">Populer Car Brands</h1>
       </div>
       <div className="ml-[280px] size-48 flex mt-[100px]">
         <img className="merek-img" src={BmwLogo} alt="..." />

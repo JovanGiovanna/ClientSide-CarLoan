@@ -4,6 +4,7 @@ import CarBrands from "./Components/CarBrands";
 import Card from "./Components/card_mobil";
 import MainHero from "./Components/MainHero";
 import FAQ from "./Components/Faq";
+import { Icon } from '@iconify/react';
 
 function App() {
   return (
