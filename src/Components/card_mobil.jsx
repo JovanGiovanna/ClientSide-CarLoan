@@ -1,4 +1,4 @@
-import mobil from "../assets/mobil.png"; 
+import mobil from "../assets/mobil.png";
 import logo from "../assets/bmw.png";
 import Ringkas from "./RingkasanSvg.jsx";
 import DetailButton from "../Components/button_detail.jsx";
@@ -45,7 +45,7 @@ const CardContainer = () => {
     <div className="mt-[200px] flex flex-col items-start ml-[350px]">
       {/* Judul Pilihan Mobil Kami disejajarkan dengan kartu pertama */}
       <h1 className="text-2xl font-bold mb-8">Pilihan Mobil Kami</h1>
-      
+
       {/* Kartu mobil dengan flex untuk layout horizontal */}
       <div className="flex gap-8">
         <Card />

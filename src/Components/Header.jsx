@@ -4,20 +4,27 @@ const Header = () => {
   return (
     <nav className="bg-sky-500 h-16">
       <div className="container mx-auto flex items-center justify-between px-4">
-        
         {/* Logo Section */}
         <a href="/home" className="text-white font-bold text-xl">
           Sewa Mobil Yayasan
         </a>
-        
+
         {/* Navigation Links */}
         <div className="hidden md:flex space-x-6">
-          <a href="/home" className="text-white hover:text-gray-200">Home</a>
-          <a href="/services" className="text-white hover:text-gray-200">Services</a>
-          <a href="/about" className="text-white hover:text-gray-200">About Us</a>
-          <a href="/contact" className="text-white hover:text-gray-200">Contact</a>
+          <a href="/home" className="text-white hover:text-gray-200">
+            Home
+          </a>
+          <a href="/services" className="text-white hover:text-gray-200">
+            Services
+          </a>
+          <a href="/about" className="text-white hover:text-gray-200">
+            About Us
+          </a>
+          <a href="/contact" className="text-white hover:text-gray-200">
+            Contact
+          </a>
         </div>
-        
+
         {/* Mobile Menu Button */}
         <button className="md:hidden text-white focus:outline-none">
           <svg

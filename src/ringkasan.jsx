@@ -7,15 +7,14 @@ import Footer from "./Components/Footer";
 function ringkasan_mobil() {
   return (
     <div>
-            <Header/>
+      <Header />
 
-    <main>
-        <MainHero/>
-        <Ringkas/>
-    </main>
-      
+      <main>
+        <MainHero />
+        <Ringkas />
+      </main>
 
-            <Footer/>
+      <Footer />
     </div>
   );
 }

@@ -6,8 +6,6 @@ const DetailButton = () => {
         <p className="text-white ml-1 font-bold p-1">Detail Lengkap</p>
       </button>
     </a>
-
-    
   );
 };
 

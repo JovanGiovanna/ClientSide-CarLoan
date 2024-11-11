@@ -1,4 +1,4 @@
-import mobil from "../assets/mobil.png"; 
+import mobil from "../assets/mobil.png";
 
 const DetailMobil = () => {
   return (
@@ -8,7 +8,11 @@ const DetailMobil = () => {
         <h1 className="text-2xl font-bold mb-4">Detail Mobil</h1>
 
         {/* Gambar Mobil */}
-        <img src={mobil} alt="Mobil" className="w-full h-[300px] object-cover rounded-xl mb-6" />
+        <img
+          src={mobil}
+          alt="Mobil"
+          className="w-full h-[300px] object-cover rounded-xl mb-6"
+        />
 
         {/* Informasi Mobil */}
         <div className="px-4">
