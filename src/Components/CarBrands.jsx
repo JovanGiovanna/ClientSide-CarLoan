@@ -11,7 +11,7 @@ function CarBrands() {
       <div className="text-3xl mt-10 text-center">
         <h1 className="font-bold">Populer Car Brands</h1>
       </div>
-      <div className="ml-[280px] size-48 flex mt-[100px]">
+      <div className="ml-[230px] size-48 flex gap-5 mt-[100px]">
         <img className="merek-img" src={BmwLogo} alt="..." />
         <img className="merek-img" src={HondaLogo} alt="..." />
         <img className="size-auto" src={HyundaiLogo} alt="..." />
